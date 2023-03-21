@@ -43,9 +43,13 @@ img {
   margin: 0 auto;
   padding-left: 15px;
   padding-right: 15px;
+  padding-top: 25px;
 }
 
 /* ============= HEADER ============= */
+.page-header {
+}
+
 .logo {
   font-family: "Raleway", sans-serif;
   font-weight: 800;
@@ -102,10 +106,12 @@ img {
   text-align: center;
   letter-spacing: 0.02em;
   color: #ffffff;
+  margin-bottom: 48px;
 }
 
 .hero-section {
   background-color: var(--accent-color);
+  padding-top: 188px;
 }
 .modal-btn {
   font-family: "Roboto", sans-serif;
@@ -116,6 +122,7 @@ img {
   cursor: pointer;
   background: #4d5ae5;
   color: #ffffff;
+  margin-bottom: 188px;
 }
 
 .modal-btn:hover,
@@ -124,6 +131,10 @@ img {
 }
 
 /*============= /HERO ============= */
+/* ============= 2 SECTION========= */
+.section-features {
+  padding-top: 120px;
+}
 
 .features-title {
   font-weight: 500;
@@ -131,8 +142,7 @@ img {
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: var(--accent-color);
-}
- {
+  margin-bottom: 8px;
 }
 
 .text-main {
@@ -142,8 +152,15 @@ img {
   letter-spacing: 0.02em;
   color: var(--prymary-text-color);
 }
+/* =============== /2 SECTION ============ */
+
+/* =============== 3 SECTION ============= */
 
 .section-description {
+  padding-top: 120px;
+}
+
+.description {
   font-weight: 700;
   font-size: 36px;
   line-height: 1.11;
@@ -151,7 +168,14 @@ img {
   text-align: center;
   text-transform: capitalize;
   color: var(--accent-color);
+  margin-bottom: 72px;
 }
+.description-list {
+  margin-bottom: 120px;
+}
+/* =============== /SECTION 3 ============= */
+
+/* =============== SECTION 4 =============== */
 
 .section-team {
   background-color: #f4f4fd;
@@ -177,7 +201,21 @@ img {
   letter-spacing: 0.02em;
   text-transform: capitalize;
   color: var(--accent-color);
+  padding-top: 120px;
+  margin-bottom: 72px;
 }
+
+.text-description {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--prymary-text-color);
+  margin-bottom: 120px;
+}
+
+/* =============== /SECTION 4 ============= */
+
 /* =================== FOOTER =================== */
 .footer {
   font-family: "Raleway", sans-serif;
@@ -188,6 +226,8 @@ img {
   text-transform: uppercase;
   color: #4d5ae5;
   background-color: var(--accent-color);
+  padding-top: 101.5px;
+  padding-bottom: 100px;
 }
 .text-footer {
   font-weight: 400;
@@ -201,6 +241,16 @@ img {
 }
 /* =================== /FOOTER =================== */
 /* =================== BTN =================== */
+.partfolio {
+  padding-top: 108px;
+}
+.partfolio-btn {
+  margin-bottom: 72px;
+}
+.partfolio-list {
+  margin-bottom: 120px;
+}
+
 .nav-btn {
   font-family: "Roboto", sans-serif;
   font-weight: 500;
