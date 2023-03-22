@@ -123,6 +123,8 @@ img {
   background: #4d5ae5;
   color: #ffffff;
   margin-bottom: 188px;
+  display: block;
+  margin: 0 auto;
 }
 
 .modal-btn:hover,
