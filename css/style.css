@@ -26,9 +26,7 @@ button {
 img {
   display: block;
 }
-.list {
-  list-style: none;
-}
+
 .link {
   text-decoration: none;
 }
@@ -43,17 +41,16 @@ img {
   margin: 0 auto;
   padding-left: 15px;
   padding-right: 15px;
-  padding-top: 25px;
-  padding-bottom: 25px;
 }
 
 /* ============= HEADER ============= */
 .page-header {
+height: 72px;
+display: flex;
 }
 
 .header-container {
   display: flex;
-  justify-content: space-between;
   align-items: center;
 }
 .page-nav {
@@ -62,6 +59,8 @@ img {
 }
 
 .logo {
+  margin-right: 76px;
+
   font-family: "Raleway", sans-serif;
   font-weight: 800;
   font-size: 18px;
@@ -69,7 +68,7 @@ img {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #4d5ae5;
-  margin-right: 76px;
+
 }
 
 .logo-header {
@@ -79,6 +78,7 @@ img {
 .menu {
   display: flex;
   gap: 40px;
+  align-items: center;
 }
 .menu-item {
   /* margin-right: 40px; */
@@ -125,18 +125,27 @@ img {
 
 /*============= HERO ============= */
 .hero {
+width: 500px;
+
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 48px;
+
   font-weight: 700;
   font-size: 56px;
   line-height: 1.07;
   text-align: center;
   letter-spacing: 0.02em;
   color: #ffffff;
-  margin-bottom: 48px;
+
+ 
 }
 
 .hero-section {
   background-color: var(--accent-color);
-  padding-top: 188px;
+  height: 600px;
+  display: flex;
+  align-items: center;
 }
 .modal-btn {
   min-width: 169px;
@@ -149,9 +158,9 @@ img {
   cursor: pointer;
   background: #4d5ae5;
   color: #ffffff;
-  margin-bottom: 188px;
   display: block;
   margin: 0 auto;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
 }
 
@@ -164,6 +173,15 @@ img {
 /* ============= 2 SECTION========= */
 .section-features {
   padding-top: 120px;
+}
+.list-item {
+  width: calc(25% - 24px);
+}
+.list {
+  list-style: none;
+  display: flex;
+justify-content: space-between;
+padding-bottom: ;
 }
 
 .features-title {
@@ -190,6 +208,10 @@ img {
   padding-top: 120px;
 }
 
+.description-list-item {
+width: calc(33.33% - 24px );
+}
+
 .description {
   font-weight: 700;
   font-size: 36px;
@@ -209,6 +231,7 @@ img {
 
 .section-team {
   background-color: #f4f4fd;
+padding-top: 150px;
 }
 
 .team-list {
@@ -231,7 +254,6 @@ img {
   letter-spacing: 0.02em;
   text-transform: capitalize;
   color: var(--accent-color);
-  padding-top: 120px;
   margin-bottom: 72px;
 }
 
