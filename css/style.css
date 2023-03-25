@@ -25,6 +25,12 @@ button {
 
 img {
   display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+.list {
+  list-style: none;
 }
 
 .link {
@@ -45,8 +51,8 @@ img {
 
 /* ============= HEADER ============= */
 .page-header {
-height: 72px;
-display: flex;
+  height: 72px;
+  display: flex;
 }
 
 .header-container {
@@ -68,7 +74,6 @@ display: flex;
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #4d5ae5;
-
 }
 
 .logo-header {
@@ -125,7 +130,7 @@ display: flex;
 
 /*============= HERO ============= */
 .hero {
-width: 500px;
+  width: 500px;
 
   margin-left: auto;
   margin-right: auto;
@@ -137,8 +142,6 @@ width: 500px;
   text-align: center;
   letter-spacing: 0.02em;
   color: #ffffff;
-
- 
 }
 
 .hero-section {
@@ -177,11 +180,10 @@ width: 500px;
 .list-item {
   width: calc(25% - 24px);
 }
-.list {
-  list-style: none;
-  display: flex;
-justify-content: space-between;
-padding-bottom: ;
+.features-list {
+    display: flex;
+  justify-content: space-between;
+  padding-bottom: 120px;
 }
 
 .features-title {
@@ -209,7 +211,7 @@ padding-bottom: ;
 }
 
 .description-list-item {
-width: calc(33.33% - 24px );
+  width: calc(33.33% - 24px);
 }
 
 .description {
@@ -223,7 +225,9 @@ width: calc(33.33% - 24px );
   margin-bottom: 72px;
 }
 .description-list {
-  margin-bottom: 120px;
+    display: flex;
+  justify-content: space-between;
+  padding-bottom: 120px;
 }
 /* =============== /SECTION 3 ============= */
 
@@ -231,14 +235,30 @@ width: calc(33.33% - 24px );
 
 .section-team {
   background-color: #f4f4fd;
-padding-top: 150px;
+  padding-top: 150px;
 }
 
-.team-list {
+.team-list-item {
   background-color: #ffffff;
+  /* height: 380px; */
+box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
+border-radius: 0px 0px 4px 4px;
+}
+.team-list {
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 120px;
+  text-align: center;
+  
+}
+
+.team-content {
 }
 
 .team-name {
+  margin-top: 32px;
+  margin-bottom: 8px;
+
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
@@ -263,7 +283,7 @@ padding-top: 150px;
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--prymary-text-color);
-  margin-bottom: 120px;
+padding-bottom: 32px;
 }
 
 /* =============== /SECTION 4 ============= */
@@ -297,7 +317,6 @@ padding-top: 150px;
   padding-top: 108px;
 }
 .partfolio-btn {
-
   display: flex;
   gap: 40px;
   justify-content: center;
@@ -305,7 +324,6 @@ padding-top: 150px;
 .partfolio-list {
   margin-bottom: 120px;
   flex-wrap: wrap;
-
 }
 
 .nav-btn {
@@ -323,7 +341,6 @@ padding-top: 150px;
 
   padding: 12px 24px;
   margin-bottom: 72px;
-
 }
 .nav-btn:hover,
 .nav-btn:focus {
