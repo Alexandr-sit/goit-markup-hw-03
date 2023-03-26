@@ -297,14 +297,16 @@ img {
   padding-bottom: 100px;
 }
 .text-footer {
+  width: 264px;
+
   font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #e7e9fc;
-  width: 264px;
 }
 .logo-footer {
+  display: inline-block;
   margin-bottom: 16px;
   margin-right: 76px;
 
@@ -339,33 +341,35 @@ img {
 }
 
 .nav-btn {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  text-align: center;
   padding: 12px 24px;
+  background: #f4f4fd;
+  display: block;
+  border: 0;
 
   font-family: "Roboto", sans-serif;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  text-align: center;
   letter-spacing: 0.04em;
   color: #4d5ae5;
-  background: #f4f4fd;
-  display: block;
-  border: 0;
 }
 .nav-btn:hover,
 .nav-btn:focus {
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 1.5;
   display: flex;
   align-items: center;
   text-align: center;
+
+  background: #404bbf;
+
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
   letter-spacing: 0.04em;
   color: #ffffff;
-  background: #404bbf;
 }
 .gallery-items {
   margin-left: 16px;
